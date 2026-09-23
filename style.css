@@ -29,6 +29,24 @@ nav {
     margin-top: 20px;
 }
 
-nav a {
-    color: white
+nav a 
+    color: white;
+
+button {
+    background-color:#be00be;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button: hover {
+    background-color: #9b4d83;   
+}
+
+.curtir {
+    display:block;
+    width: fit-content;
+    margin: 20px auto;
 }
