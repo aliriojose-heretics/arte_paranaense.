@@ -28,6 +28,13 @@ botoesCurtir.forEach(function (botaoCurtir) {
          contador.textContent = valorAtual - 1;
          curtiu = false;
          botaoCurtir.classList.remove("curtido");
+
       }
    }
 });
+
+const btnTema - document.querySelector(".btn-tema");
+btnTema.addEventListener("click", mudarTema);
+function mudarTema(){
+   document.body.classList.toggle("tema-escuro")
+}
