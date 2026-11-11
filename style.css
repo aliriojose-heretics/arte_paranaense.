@@ -95,6 +95,7 @@
     margin: 15px 0;
     border-left: 6px solid #6b2d5c;
     border-radius: 10px;
+    flex: 1 1 300px;
  }
 
  .card h3 {
@@ -119,9 +120,21 @@
  }
 
  button :hover {
-   background-color:var( antiquewhite;);
+   background-color:var( --cor-hover;);
  }
 
  .curtir {
-   d
- }
+   display: block;
+   width: fit-content;
+   margin: 20px auto;
+ 
+
+}
+
+.galeria {
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
