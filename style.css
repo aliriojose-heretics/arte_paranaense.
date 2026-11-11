@@ -11,7 +11,12 @@
      --cor-legenda:#10d84c15;
 }
      */
-
+.tema-escuro {
+    --color-fundo:#121212;
+    --color-texto:#f5f5f5;
+    --color-principal:#740505;
+    --color-superficie:#ad8b8b;
+    --color-card:#043f3f;
  body {
     background-color: #f4f1ea;
     color: #222222;
@@ -102,4 +107,21 @@
     text-align: center;
     padding: 20px;
     margin-top: 30px;
+ }
+
+ button {
+   background-color: #6b2d5c;
+   color: white;
+   border: none;
+   padding: 10px 15px;
+   border-radius: 8px;
+   cursor: pointer;
+ }
+
+ button :hover {
+   background-color:var( antiquewhite;);
+ }
+
+ .curtir {
+   d
  }
