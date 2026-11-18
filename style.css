@@ -120,7 +120,7 @@
  }
 
  button :hover {
-   background-color:var( --cor-hover;);
+   background-color:var --cor-hover;
  }
 
  .curtir {
@@ -153,4 +153,4 @@
    height: 50px;
    border-radius: 50%;
    font-size: 22px;
-}
+}}
