@@ -15,7 +15,7 @@ body{
 }
 header{
     background-color: black;
-    color: #4c3952;
+    color: #0a3853;
     text-align: center;
     padding: 30px;
 }
@@ -47,7 +47,7 @@ nav a {
 }
 
  nav a:hover{
-    background-color: #280642;
+    background-color: #1d8d71;
  }
 
  main{
